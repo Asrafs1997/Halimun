@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <item name="object_person" type="id"/>
+    <item name="object_dialog" type="id"/>
+    <item name="order_item" type="id"/>
+
+    <dimen name="title">17dp</dimen>
+    <dimen name="subtitle">15dip</dimen>
+    <dimen name="subtitle1">13dip</dimen>
+    <dimen name="subtitle2">12dip</dimen>
+
+    <dimen name="fast_scroll_overlay_text_size">100dp</dimen>
+    <dimen name="sales_order_summary_header_width">100dp</dimen>
+    <dimen name="summary_header_height_new">37dp</dimen>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--101.100.185.235-->
+    <EditTextPreference
+        android:defaultValue="10.0.2.2"
+        android:key="address"
+        android:inputType="textUri"
+        android:summary="192.168.1.1"
+        android:title="IP Address" />
+
+    <EditTextPreference
+        android:defaultValue="0"
+        android:key="port"
+        android:inputType="number"
+        android:summary="80"
+        android:title="Ip port" />
+
+    <EditTextPreference
+        android:defaultValue="ups"
+        android:key="virtual"
+        android:inputType="text"
+        android:summary="Application"
+        android:title="Virtual Directory"></EditTextPreference>
+
+
+    <PreferenceCategory android:title="Click to Save">
+        <Preference android:title="Save"
+            android:key="btnSave" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Select Printer"
+        android:key="btnSelect">
+        <Preference android:title="Bluetooth Printer"
+            android:key="bTPrinter"
+            android:summary="00:00:00:00"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light_orange">#80ff8a65</color>
+    <color name="primary_text">#424242</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="menu_color">#2F7B83</color>
+    <color name="menu_hit">#205055</color>
+    <color name="menu_heading">#327A82</color>
+    <color name="list_heading">#205055</color>
+    <color name="list_item_bg">#29666C</color>
+    <color name="list_item_toolbar">#215358</color>
+    <color name="list_item_textcolor">#FFF798</color>
+    <color name="list_item_heading">#90B7BC</color>
+
+    <color name="tab_background">#215358</color>
+    <color name="pager_background">#327A82</color>
+    <!---->
+    <color name="text_orange">#FF6200</color>
+    <color name="text_green">#7AE637</color>
+    <color name="text_brown">#77512C</color>
+
+    <color name="colorwhitebackground">#fff</color>
+
+    <color name="buttonfocuss">#03A9F4</color>
+    <color name="buttonpress">#4CAF50</color>
+    <color name="spnColor">#E040FB</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="buttoncolor">#311B92</color>
+
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+    <color name="subtitle">#666666</color>
+    <color name="subtitle1">#888888</color>
+    <color name="credit_limit_text_color">#163A5C</color>
+    <color name="summary_header_bg">#8094A6</color>
+    <color name="bgcard">#C3D8F5</color>
+    <color name="bgBlue">#C3D8F5</color>
+    <color name="bgIndigo">#C5CAE9</color>
+    <color name="bgPink">#F8BBD0</color>
+    <color name="bgRed">#EF9A9A</color>
+    <color name="bgGreen">#C8E6C9</color>
+    <color name="bgOrange">#FFE0B2</color>
+</resources>

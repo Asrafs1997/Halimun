@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Halimun_Super_Market.iml" filepath="$PROJECT_DIR$/.idea/modules/Halimun_Super_Market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Sewoo_Android_1070/Halimun_Super_Market.Sewoo_Android_1070.iml" filepath="$PROJECT_DIR$/.idea/modules/Sewoo_Android_1070/Halimun_Super_Market.Sewoo_Android_1070.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Halimun_Super_Market.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/droidText.0.2/Halimun_Super_Market.droidText.0.2.iml" filepath="$PROJECT_DIR$/.idea/modules/droidText.0.2/Halimun_Super_Market.droidText.0.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ksoap2-android-assembly-2.5.2-jar-with-dependencies/Halimun_Super_Market.ksoap2-android-assembly-2.5.2-jar-with-dependencies.iml" filepath="$PROJECT_DIR$/.idea/modules/ksoap2-android-assembly-2.5.2-jar-with-dependencies/Halimun_Super_Market.ksoap2-android-assembly-2.5.2-jar-with-dependencies.iml" />
+    </modules>
+  </component>
+</project>

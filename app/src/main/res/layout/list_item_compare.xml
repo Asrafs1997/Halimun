@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pager_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Item Name"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:id="@+id/txtDescription"
+        android:textColor="#FFF"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:weightSum="4"
+        android:baselineAligned="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Unit.Cost"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:paddingLeft="10dp"
+            android:gravity="center|left"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0.00"
+            android:id="@+id/txtUnitCost"
+            android:paddingRight="10dp"
+            android:gravity="center|right"
+            android:textColor="@color/list_item_textcolor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Total.Amt"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="#FFF"
+            android:gravity="center|left"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="0.00"
+            android:id="@+id/txtAmnt"
+            android:textColor="@color/list_item_textcolor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingRight="10dp"
+            android:gravity="center|right"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:id="@+id/linPoLQty">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PO-LQty  :"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="Item Name"
+                android:id="@+id/txtPoLQty"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ScanLQty  :"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="Item Name"
+                android:id="@+id/txtLQty"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:id="@+id/linPoWQty">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PO-WQty  :"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="Item Name"
+                android:id="@+id/txtPoWQty"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ScanWQty  :"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="10dp"
+                android:text="Item Name"
+                android:id="@+id/txtWQty"
+                android:gravity="center|left"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

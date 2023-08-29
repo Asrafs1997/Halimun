@@ -1,0 +1,1 @@
+include ':app', ':ksoap2-android-assembly-2.5.2-jar-with-dependencies', ':Sewoo_Android_1070', ':droidText.0.2'

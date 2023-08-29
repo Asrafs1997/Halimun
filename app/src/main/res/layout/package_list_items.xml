@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ispackage_llv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="left|center_vertical"
+            android:text="Price"
+            android:textColor="@color/list_item_textcolor" />
+
+        <LinearLayout
+            android:id="@+id/horizontal_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtInvCode"
+                android:layout_width="@dimen/sales_order_summary_header_width"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="Price"
+                android:theme="@style/fragmentSalesOrderSummaryStyleRow" />
+
+
+            <TextView
+                android:id="@+id/txtOnhand"
+                android:layout_width="@dimen/sales_order_summary_header_width"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="Price"
+                android:theme="@style/fragmentSalesOrderSummaryStyleRow" />
+
+            <TextView
+                android:id="@+id/txtQty"
+                android:layout_width="@dimen/sales_order_summary_header_width"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="Price"
+                android:theme="@style/fragmentSalesOrderSummaryStyleRow" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="@dimen/sales_order_summary_header_width"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:text="Price"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/notpackage_llv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/txtDescription2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="left|center_vertical"
+            android:text="Price"
+            android:textColor="@color/list_item_textcolor" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtInvCode2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:text="Price"
+                android:theme="@style/fragmentSalesOrderSummaryStyleRow" />
+
+
+            <TextView
+                android:id="@+id/txt_totalQty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:text="Price"
+                android:theme="@style/fragmentSalesOrderSummaryStyleRow" />
+
+            <TextView
+                android:id="@+id/txtPrice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:text="Price"
+                android:theme="@style/fragmentSalesOrderSummaryStyleRow" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

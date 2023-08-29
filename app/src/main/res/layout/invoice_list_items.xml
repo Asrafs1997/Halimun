@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearlist"
+        android:baselineAligned="false"
+        android:descendantFocusability="blocksDescendants"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/txtInvNo"
+            android:text="Do No"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:text="Do Date"
+            android:textColor="#000"
+            android:layout_marginLeft="3dp"
+            android:id="@+id/txtInvDate"
+            android:focusable="false"
+            android:singleLine="true"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Invoice No"
+            android:focusable="false"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:gravity="center"
+            android:id="@+id/txtCustName"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Created On"
+            android:singleLine="true"
+            android:gravity="center"
+            android:textColor="#000"
+            android:id="@+id/txtNetTotal"
+            android:layout_weight="1"
+            android:focusable="false"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:text="Customer"
+            android:inputType="text"
+            android:textColor="#000"
+            android:gravity="center"
+            android:singleLine="true"
+            android:id="@+id/txtCreatedUser"
+            android:layout_weight="1"
+            android:focusable="false"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:text="Created by"
+            android:singleLine="true"
+            android:textColor="#000"
+            android:gravity="center"
+            android:id="@+id/txtCreatedOn"
+            android:layout_weight="1"
+            android:focusable="false"/>
+    </LinearLayout>
+</LinearLayout>

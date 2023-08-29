@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "26.0.1"
+
+    defaultConfig {
+        applicationId "com.unipro.labisha"
+        minSdkVersion 14
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        android.applicationVariants.all { variant ->
+            variant.outputs.all {
+                outputFileName = "Unipro_PDA_Halimun_v${defaultConfig.versionName}.apk"
+            }
+        }
+    }
+
+
+}
+repositories{
+    maven {
+        url "https://jitpack.io"
+    }
+}
+
+allprojects {
+    buildDir = "C:/tmp/${rootProject.name}/${project.name}"
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
+    compile 'com.android.support:cardview-v7:26.0.0-alpha1'
+    compile 'com.android.support:design:26.0.0-alpha1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    compile 'com.android.volley:volley:1.1.0'
+    compile project(':Sewoo_Android_1070')
+    compile 'com.airbnb.android:lottie:1.5.3'
+    compile project(':ksoap2-android-assembly-2.5.2-jar-with-dependencies')
+    compile project(':droidText.0.2')
+    compile 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
+}

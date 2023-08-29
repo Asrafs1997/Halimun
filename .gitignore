@@ -1,0 +1,12 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+
+# Project exclude paths
+/droidText.0.2/build/
+/ksoap2-android-assembly-2.5.2-jar-with-dependencies/build/
+/Sewoo_Android_1070/build/

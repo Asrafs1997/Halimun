@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('Sewoo_Android_1070.jar'))
